@@ -10,7 +10,7 @@ function Offer() {
       {offers.map((offer, index) => {
         if (offer.type === "trending") {
           return (
-            <div className="card card-compact h-60 w-96 bg-base-100 shadow-xl">
+            <div key={index} className="card card-compact h-60 w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src={offer.image}

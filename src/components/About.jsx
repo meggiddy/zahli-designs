@@ -9,14 +9,14 @@ function About() {
                 <div class="w-full px-3 sm:px-4 xl:w-1/2">
                   <div class="py-3 sm:py-4">
                     <img
-                      src="assets/images/about/image-1.jpg"
+                      src="bigphoto.jpg"
                       alt=""
                       class="w-full rounded-2xl"
                     />
                   </div>
                   <div class="py-3 sm:py-4">
                     <img
-                      src="assets/images/about/image-2.jpg"
+                      src="blackgrid.jpg"
                       alt=""
                       class="w-full rounded-2xl"
                     />
@@ -25,7 +25,7 @@ function About() {
                 <div class="w-full px-3 sm:px-4 xl:w-1/2">
                   <div class="relative z-10 my-4">
                     <img
-                      src="assets/images/about/image-3.jpg"
+                      src="mentalh.jpg"
                       alt=""
                       class="w-full rounded-2xl"
                     />

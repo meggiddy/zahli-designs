@@ -1,10 +1,10 @@
 import { NavLink as Link } from "react-router-dom";
 function NavBar() {
   return (
-    <div className="navbar">
+    <div className="navbar bg-white text-teal-400">
       <div className="flex-1">
         <Link to="/">
-          <img className="w-20" alt="zahli Logo" src="logo.png" />
+          <img className="w-20" alt="zahli Logo" src="logo2.png" />
         </Link>
       </div>
       <div className="flex">
@@ -13,7 +13,7 @@ function NavBar() {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/shop">Shop</Link>
           </li>
           <li>
             <Link to="/services">Services</Link>

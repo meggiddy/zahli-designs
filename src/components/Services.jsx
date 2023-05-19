@@ -69,11 +69,11 @@ function Services() {
                   </svg>
                 </div>
                 <h4 class="mb-3 text-xl font-semibold text-dark">
-                  Based on Tailwind CSS
+                  Mental Health Support
                 </h4>
                 <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                  We enjoy working with discerning clients, people for whom
+                  quality, service, integrity & aesthetics.
                 </p>
               </div>
             </div>
@@ -106,7 +106,7 @@ function Services() {
                   </svg>
                 </div>
                 <h4 class="mb-3 text-xl font-semibold text-dark">
-                  100+ Components
+                  Flexible Design
                 </h4>
                 <p class="text-body-color">
                   We dejoy working with discerning clients, people for whom
@@ -143,7 +143,7 @@ function Services() {
                   </svg>
                 </div>
                 <h4 class="mb-3 text-xl font-semibold text-dark">
-                  Speed Optimized
+                  Stellar Service
                 </h4>
                 <p class="text-body-color">
                   We dejoy working with discerning clients, people for whom

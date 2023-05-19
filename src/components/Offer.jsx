@@ -1,25 +1,33 @@
 import { offers } from "./offers";
 function Offer() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 relative overflow-hidden">
+    <>
+    <h2 className="text-2xl py-10 text-center font-bold tracking-tight text-gray-900">
+          Trending
+        </h2>
+    <div className="flex justify-between relative overflow-hidden">
+
       {offers.map((offer, index) => {
         if (offer.type === "trending") {
           return (
-            <div className="overflow-hidden" key={index}>
-              <img
-                src={offer.image}
-                alt="infomation"
-                className="h-72 w-fit transition-transform duration-300 transform hover:scale-105"
-              />
-              <div className="absolute top-0 p-8">
-                <h3 className="text-teal-300 py-4 text-xl">{offer.category}</h3>
-                <div className="btn text-teal-500">SHOP NOW</div>
+            <div className="card card-compact h-60 w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src={offer.image}
+                  alt="Shoes"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">{offer.category}</h2>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
           );
         }
       })}
-    </div>
+    </div></>
   );
 }
 

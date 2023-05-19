@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+.blogBg{
+  background-image: url("/public/bg.jpg");
+}

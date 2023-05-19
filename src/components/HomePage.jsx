@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <div>
       <CarouselImages />
-      {/* <Offer /> */}
+      <Offer />
       <Trending />
       <Blog />
     </div>

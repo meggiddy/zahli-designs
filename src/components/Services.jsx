@@ -1,6 +1,6 @@
 function Services() {
   return (
-    <div>
+    <div className="bg-white">
       <section class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
         <div class="container mx-auto">
           <div class="-mx-4 flex flex-wrap">

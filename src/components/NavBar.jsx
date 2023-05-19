@@ -16,8 +16,12 @@ function NavBar() {
             <Link to="/shop">Shop</Link>
           </li>
           <li>
+            <Link to="/custom">Custom</Link>
+          </li>
+          <li>
             <Link to="/services">Services</Link>
           </li>
+
         </div>
       </div>
       <div className="flex-none">

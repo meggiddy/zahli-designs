@@ -29,8 +29,8 @@ export default function Shop() {
         </div>
       </div>
       <div className="btn-group py-8">
-        <button className="btn">1</button>
-        <button className="btn btn-active">2</button>
+        <button className="btn btn-active">1</button>
+        <button className="btn">2</button>
         <button className="btn">3</button>
         <button className="btn">4</button>
       </div>

@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Login from "./components/Login";
 import Shop from "./components/Shop";
 import Services from "./components/Services";
+import UploadPicture from "./components/UploadPicture";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/custom" element={<UploadPicture />} />
           <Route path="/services" element={<Services />} />
         </Routes>
         <Footer />

@@ -60,7 +60,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function ProductLanding() {
   const [selectedColor, setSelectedColor] = useState(product.colors[0]);
   const [selectedSize, setSelectedSize] = useState(product.sizes[2]);
 
@@ -69,7 +69,6 @@ export default function Example() {
       <div className="pt-6">
         <nav aria-label="Breadcrumb">
           <ol
-            role="list"
             className="mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8"
           >
             {product.breadcrumbs.map((breadcrumb) => (

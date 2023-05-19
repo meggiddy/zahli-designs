@@ -13,7 +13,7 @@ export const posts = [
         role: 'Art Therapist',
         href: '#',
         imageUrl:
-          'https://images.unsplash.com/photo-1556767574-3424c3d174c2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjE2fHxtZW50YWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&q=80',
+          '',
       },
     },
     {
@@ -30,7 +30,7 @@ export const posts = [
         role: 'Positive Psychology Coach',
         href: '#',
         imageUrl:
-          'https://images.unsplash.com/photo-1580894734536-aae4e2a2d75b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQ0fHxwb3NpdGl2ZSUyMGJvb2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&q=80',
+          '',
       },
     },
     {
@@ -47,7 +47,7 @@ export const posts = [
         role: 'Graphic Designer',
         href: '#',
         imageUrl:
-          'https://images.unsplash.com/photo-1601758459448-d99a47cade19?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQ1fHxncmFwaGljJTIwZGVzaWduZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&q=80',
+          '',
       },
     },
     // More posts...

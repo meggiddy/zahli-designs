@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div>
+    <div className="bg-white">
       <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap items-center justify-between">
@@ -604,6 +604,7 @@ function About() {
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+            <img src="logo2.png" alt="logo" className="w-40 absolute top-10 md:relative items-center md:top-0 left-60 md:left-40"></img>
               <div className="mt-10 lg:mt-0">
                 <span className="mb-2 block text-lg font-semibold text-primary">
                   Why Choose Us

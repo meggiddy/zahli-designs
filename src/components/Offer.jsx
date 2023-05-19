@@ -1,7 +1,7 @@
 import { offers } from "./offers";
 function Offer() {
   return (
-    <>
+    <div className="bg-white">
     <h2 className="text-2xl py-10 text-center font-bold tracking-tight text-gray-900">
           Trending
         </h2>
@@ -27,7 +27,7 @@ function Offer() {
           );
         }
       })}
-    </div></>
+    </div></div>
   );
 }
 

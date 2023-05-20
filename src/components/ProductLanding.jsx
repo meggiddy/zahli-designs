@@ -35,25 +35,25 @@ const product = {
     { name: "Black", class: "bg-gray-900", selectedClass: "ring-gray-900" },
   ],
   sizes: [
-    { name: "XXS", inStock: false },
-    { name: "XS", inStock: true },
-    { name: "S", inStock: true },
-    { name: "M", inStock: true },
+    { name: "pocket", inStock: false },
+    { name: "A5", inStock: true },
+    { name: "A4", inStock: true },
+/*     { name: "M", inStock: true },
     { name: "L", inStock: true },
     { name: "XL", inStock: true },
     { name: "2XL", inStock: true },
-    { name: "3XL", inStock: true },
+    { name: "3XL", inStock: true }, */
   ],
   description:
   'Learn how you can raise awareness for mental health by printing custom designs. Discover the impact of personalized artwork and messages.',
   highlights: [
-    "Hand cut and sewn locally",
-    "Dyed with our proprietary colors",
-    "Pre-washed & pre-shrunk",
-    "Ultra-soft 100% cotton",
+    "Notingg down feelings and their impact",
+    "Identifying what you are grateful for",
+    "Letters to myself",
+    "Positive affirmations",
   ],
   details:
-    'The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming "Charcoal Gray" limited release.',
+    'This Journaal has guided daily and monthly journal prompts and a brain dump section for all your thoughts.',
 };
 const reviews = { href: "#", average: 4, totalCount: 117 };
 
@@ -173,7 +173,7 @@ export default function ProductLanding() {
                 <p className="sr-only">{reviews.average} out of 5 stars</p>
                 <a
                   href={reviews.href}
-                  className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500"
+                  className="ml-3 text-sm font-medium text-teal-600 hover:text-teal-500"
                 >
                   {reviews.totalCount} reviews
                 </a>
@@ -227,7 +227,7 @@ export default function ProductLanding() {
                   <h3 className="text-sm font-medium text-gray-900">Size</h3>
                   <a
                     href="#"
-                    className="text-sm font-medium text-indigo-600 hover:text-indigo-500"
+                    className="text-sm font-medium text-teal-600 hover:text-teal-500"
                   >
                     Size guide
                   </a>
@@ -252,7 +252,7 @@ export default function ProductLanding() {
                             size.inStock
                               ? "cursor-pointer bg-white text-gray-900 shadow-sm"
                               : "cursor-not-allowed bg-gray-50 text-gray-200",
-                            active ? "ring-2 ring-indigo-500" : "",
+                            active ? "ring-2 ring-teal-500" : "",
                             "group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6"
                           )
                         }
@@ -267,7 +267,7 @@ export default function ProductLanding() {
                                 className={classNames(
                                   active ? "border" : "border-2",
                                   checked
-                                    ? "border-indigo-500"
+                                    ? "border-teal-500"
                                     : "border-transparent",
                                   "pointer-events-none absolute -inset-px rounded-md"
                                 )}
@@ -305,7 +305,7 @@ export default function ProductLanding() {
               <button
                 type="submit"
                 onClick={()=> navigate('/checkout')}
-                className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-teal-600 px-8 py-3 text-base font-medium text-white hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
               >
                 Add to bag
               </button>

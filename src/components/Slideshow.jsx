@@ -4,7 +4,7 @@ export const slideshowInfo = [
     category: "Book Cover",
     title: "Are You Planning To Print Your Gift",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duitincidunt neque, morbi habitasse viverra. Lorem ipsum dolor sitamet, consectetur adipiscing elit. Dui tincidunt neque, morbihabitasse viverra.",
+      "Fully customize your gift for your loved ones",
   },
   {
     image: "carosel2.jpg",

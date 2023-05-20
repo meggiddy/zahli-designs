@@ -1,7 +1,11 @@
 import Products from "../products";
+import { useNavigate } from "react-router-dom";
+
 function Suggestions() {
+  const navigate = useNavigate();
+
   return (
-    <div className="bg-teal-300">
+    <div className="bg1">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-16 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-center text-gray-900">
           Top Items
@@ -13,6 +17,7 @@ function Suggestions() {
                 <img
                   src={product.img}
                   alt={product.imageAlt}
+                  onClick={() => navigate("/product")}
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                 />
               </div>

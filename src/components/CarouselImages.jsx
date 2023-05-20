@@ -1,8 +1,10 @@
 import Carousel from "nuka-carousel";
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
 import { slideshowInfo } from "./Slideshow";
+import { useNavigate } from "react-router-dom";
 
 function CarouselImages() {
+  const navigate = useNavigate();
   return (
     <div className="">
       <Carousel
@@ -31,12 +33,16 @@ function CarouselImages() {
               </div>
               <h1 className="text-black text-5xl pt-4">{slide.title}</h1>
               <p className="text-gray-600 py-4">{slide.description}</p>
-              <div className="btn text-teal-500">SHOP NOW</div>
+              <div
+                onClick={() => navigate("/shop")}
+                className="btn text-teal-500"
+              >
+                SHOP NOW
+              </div>
             </div>
           </div>
         ))}
       </Carousel>
-
     </div>
   );
 }

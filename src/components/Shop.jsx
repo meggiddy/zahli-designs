@@ -1,6 +1,9 @@
 import Products from "../products";
+import { useNavigate } from "react-router-dom";
 
 export default function Shop() {
+  const navigate = useNavigate();
+
   return (
     <div className="shopBg">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -16,6 +19,7 @@ export default function Shop() {
                   src={product.img}
                   alt={product.imageAlt}
                   className="h-full w-full object-cover object-center group-hover:opacity-75"
+                  onClick={()=> navigate('/product')}
                 />
               </div>
               <h3 className="mt-4 text-sm font-bold text-white">
@@ -28,6 +32,7 @@ export default function Shop() {
           ))}
         </div>
       </div>
+
       <div className="btn-group py-8">
         <button className="btn btn-active">1</button>
         <button className="btn">2</button>

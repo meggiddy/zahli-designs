@@ -1,35 +1,36 @@
 import { useState } from "react";
 import { StarIcon } from "@heroicons/react/20/solid";
 import { RadioGroup } from "@headlessui/react";
+import { useNavigate } from "react-router-dom";
 
 const product = {
-  name: "Basic Tee 6-Pack",
-  price: "$192",
+  name: "Mental Health Journal",
+  price: "Ksh 1,600",
   href: "#",
   breadcrumbs: [
-    { id: 1, name: "Men", href: "#" },
-    { id: 2, name: "Clothing", href: "#" },
+    { id: 1, name: "Journal", href: "#" },
+    { id: 2, name: "Mental Health", href: "#" },
   ],
   images: [
     {
-      src: "https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg",
+      src: "mentalh.jpg",
       alt: "Two each of gray, white, and black shirts laying flat.",
     },
     {
-      src: "https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-01.jpg",
+      src: "mentalh4.jpg",
       alt: "Model wearing plain black basic tee.",
     },
     {
-      src: "https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-02.jpg",
+      src: "mentalh3.jpg",
       alt: "Model wearing plain gray basic tee.",
     },
     {
-      src: "https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg",
+      src: "mentalh2.jpg",
       alt: "Model wearing plain white basic tee.",
     },
   ],
   colors: [
-    { name: "White", class: "bg-white", selectedClass: "ring-gray-400" },
+    { name: "Blue", class: "bg-blue-800", selectedClass: "ring-blue-400" },
     { name: "Gray", class: "bg-gray-200", selectedClass: "ring-gray-400" },
     { name: "Black", class: "bg-gray-900", selectedClass: "ring-gray-900" },
   ],
@@ -44,7 +45,7 @@ const product = {
     { name: "3XL", inStock: true },
   ],
   description:
-    'The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: "Black". Need to add an extra pop of color to your outfit? Our white tee has you covered.',
+  'Learn how you can raise awareness for mental health by printing custom designs. Discover the impact of personalized artwork and messages.',
   highlights: [
     "Hand cut and sewn locally",
     "Dyed with our proprietary colors",
@@ -61,6 +62,7 @@ function classNames(...classes) {
 }
 
 export default function ProductLanding() {
+  const navigate = useNavigate();
   const [selectedColor, setSelectedColor] = useState(product.colors[0]);
   const [selectedSize, setSelectedSize] = useState(product.sizes[2]);
 
@@ -302,6 +304,7 @@ export default function ProductLanding() {
 
               <button
                 type="submit"
+                onClick={()=> navigate('/checkout')}
                 className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 Add to bag

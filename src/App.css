@@ -42,3 +42,6 @@
 .shopBg{
   background-image: url("/public/shopbg2.jpg");
 }
+h1,h2,h3,h4,h5,h6{
+  font-family:'Bodoni Moda';
+}

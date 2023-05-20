@@ -2,9 +2,10 @@ import { offers } from "./offers";
 function Offer() {
   return (
     <div className="bg-white">
-    <h2 className="text-2xl py-10 text-center font-bold tracking-tight text-gray-900">
-          Trending
+    <h2 className="text-2xl pt-10 pb-2 text-center font-bold tracking-tight text-gray-900">
+          What makes Zahli Designs Unique...
         </h2>
+        <p className="text-center text-yellow-400 pb-6">CUSTOMIZABLE PLANNERS</p>
     <div className="flex justify-between relative overflow-hidden">
 
       {offers.map((offer, index) => {
@@ -14,7 +15,7 @@ function Offer() {
               <figure>
                 <img
                   src={offer.image}
-                  alt="Shoes"
+                  alt="offer"
                 />
               </figure>
               <div className="card-body">

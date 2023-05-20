@@ -6,7 +6,23 @@ const Products = [
     price: "Ksh.950",
     collection: "Kids",
     dimensions: "15cm x 15cm",
-    
+    images: [{}],
+    colors:[
+      { name: "White", class: "bg-white", selectedClass: "ring-gray-400" },
+      { name: "Gray", class: "bg-gray-200", selectedClass: "ring-gray-400" },
+      { name: "Black", class: "bg-gray-900", selectedClass: "ring-gray-900" },
+    ],
+    highlights: [
+      "Hand cut and sewn locally",
+      "Dyed with our proprietary colors",
+      "Pre-washed & pre-shrunk",
+      "Ultra-soft 100% cotton",
+    ],
+    breadcrumbs: [
+      { id: 1, name: "Kids", href: "#" },
+      { id: 2, name: "Color Books", href: "#" },
+    ],
+
   },
   {
     id: 2,
@@ -32,7 +48,7 @@ const Products = [
     price: "Ksh.2700",
     collection: "Nkatha_K",
     dimensions: "24cm x 28cm",
-    color: "",
+    color: "clear",
   },
   {
     id: 5,

@@ -29,7 +29,7 @@ function CarouselImages() {
               <div className="text-teal-500 font-bold bg-white inline-block p-2 rounded-lg">
                 {slide.category}
               </div>
-              <div className="text-black text-5xl pt-4">{slide.title}</div>
+              <h1 className="text-black text-5xl pt-4">{slide.title}</h1>
               <p className="text-gray-600 py-4">{slide.description}</p>
               <div className="btn text-teal-500">SHOP NOW</div>
             </div>

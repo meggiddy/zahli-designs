@@ -39,8 +39,9 @@
 .blogBg{
   background-image: url("/public/bg.jpg");
 }
+
 .shopBg{
-  background-image: url("/public/shopbg2.jpg");
+  background-color: #04c6b97f;
 }
 h1,h2,h3,h4,h5,h6{
   font-family:'Bodoni Moda';
@@ -48,3 +49,6 @@ h1,h2,h3,h4,h5,h6{
 .bg1{
 background-image: url('/public/bg1.jpg');
 }
+/* body{
+  background-color: #61fbf1;
+} */

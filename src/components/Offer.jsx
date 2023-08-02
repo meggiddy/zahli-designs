@@ -4,11 +4,11 @@ function Offer() {
   const navigate = useNavigate();
   return (
     <div className="bg-white py-10">
-      <h2 className="text-2xl pt-10 pb-2 text-center font-bold tracking-tight text-gray-900">
+      <h2 className="text-3xl pt-10 pb-4 text-center font-bold tracking-tight text-gray-900">
         What makes Zahli Designs Unique...
       </h2>
-      <p className="text-center text-yellow-400 pb-6">CUSTOMIZABLE PLANNERS</p>
-      <div className="flex justify-between relative overflow-hidden">
+      <p className=" text-2xl text-center text-teal-400 pb-6">CUSTOMIZABLE PLANNERS</p>
+      <div className="flex justify-between relative overflow-hidden gap-4 mx-4 pb-6">
         {offers.map((offer, index) => {
           if (offer.type === "trending") {
             return (

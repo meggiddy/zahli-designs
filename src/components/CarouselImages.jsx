@@ -35,7 +35,7 @@ function CarouselImages() {
               <p className="text-gray-600 py-4">{slide.description}</p>
               <div
                 onClick={() => navigate("/shop")}
-                className="btn text-teal-500"
+                className="btn text-teal-300 bg-teal-950"
               >
                 SHOP NOW
               </div>

@@ -62,7 +62,7 @@ function UploadPicture() {
     <>
       <div
         className="relative min-h-screen flex items-center justify-center py-12 px-4 bg-slate-100"
-        style={{ backgroundImage: "url('389.jpg')" }}
+        style={{ backgroundColor: "#04c6b97f" }}
       >
         <h1 className="absolute top-5 mt-5 text-3xl font-bold text-white">
           Upload Picture
@@ -91,7 +91,7 @@ function UploadPicture() {
                   <p className="pointer-none text-white ">
                     <span className="text-sm">Drag and drop</span> files here{" "}
                     <br /> or{" "}
-                    <a href="" id="" className="text-teal-400 hover:underline">
+                    <a href="" id="" className="text-teal-600 hover:underline">
                       select a file
                     </a>{" "}
                     from your computer

@@ -13,6 +13,7 @@ import Shop from "./components/Shop";
 import Services from "./components/Services";
 import UploadPicture from "./components/UploadPicture";
 import ProductLanding from "./components/ProductLanding";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <>
         {/* <Login /> */}
         <NavBar />
+        <ScrollToTop/>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
